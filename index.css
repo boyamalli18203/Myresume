@@ -1,0 +1,52 @@
+*{
+   margin: 0; 
+   padding: 0;
+}
+body{
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+header{
+   border-bottom: 1px solid grey;
+   padding-left: 20px; 
+   margin-bottom: 10px;
+}
+nav {
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+nav span{
+    margin-left: 10px;
+}
+nav span:first-child{
+    border-bottom: 2px solid black;
+
+}
+nav span a{
+    text-decoration: none;
+}
+.img-container{
+    float: right;
+    margin: 10px;
+    
+    
+}
+.img-container img{
+width: 250px;
+height: 200px;
+}
+.main-content  {
+    text-indent: 15px;
+    padding: 15px;
+
+}
+.main-content p{
+    margin: 15px;
+}
+
+
+
